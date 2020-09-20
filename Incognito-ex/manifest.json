@@ -1,0 +1,40 @@
+{
+    "name": "incognito-extension-v1",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+    "description": "incognito extension to open current page in incognito mode",
+    
+    "icons" : {
+        "128" : "images/incognito-icon.png",
+        "64" : "images/incognito-icon.png",
+        "32" : "images/incognito-icon.png",
+        "16" : "images/incognito-icon.png"
+    },
+    
+    "browser_action" : {
+        "default_icon": "images/incognito-icon.png",
+        "default_title": "Open current page in incognito mode"
+    },
+
+    "permissions" : [
+        "http://*/*",
+        "https://*/*",
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+              "windows": "Ctrl + I",
+              "mac": "Command + I",
+              "chromeos": "Ctrl + I",
+              "linux": "Ctrl+Shift + I"
+            }
+        }
+    }
+}
