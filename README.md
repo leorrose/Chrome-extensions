@@ -11,4 +11,4 @@ Multiple Chrome extensions for my personal use.
 
 Please let me know if you find bugs or something that needs to be fixed.
 
-Hope you enjoy.
+Hope you enjoy
