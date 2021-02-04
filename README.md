@@ -1,7 +1,3 @@
-<p align="center">
-   <img src="https://img.shields.io/badge/-Personal%20Project-informational" />
-</p>
-
 # Chrome-extensions
 
 Multiple Chrome extensions for my personal use.
